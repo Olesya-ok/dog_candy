@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #774e2e;
+}
+
+body {
+    max-width: 1920px;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    max-width: 1920px;
+}
+
+.hader_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1170px;
+    height: 79px;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 146px;
+}
+
+.hader_nav img {
+    margin-right: 688px;
+}
+
+header nav {
+    display: flex;
+    gap: 50px;
+}
+
+header nav a {
+    text-decoration: none;
+}
+
+/* section hello_yummy */
+
+
+.hello_yummy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 375px;
+}
+
+.hello_yummy .title_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 1170px;
+    margin-bottom: 134px;
+}
+
+.hello_yummy .title_container h2 {
+    font-weight: 800;
+    font-size: 110px;
+    line-height: 100%;
+    letter-spacing: 0.05em;
+    margin-bottom: 40px;
+}
+
+.hello_yummy .title_container span {
+    color: #f37f34;
+}
+
+.hello_yummy .title_container p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    margin-bottom: 50px;
+    width: 575px;
+    height: 96px;
+}
+
+.hello_yummy .title_container button {
+    width: 343px;
+    height: 69px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #fff;
+    background: #774e2e;
+}
+
+/* .hello_yummy .title_container img {
+    width: 10%;
+} */
+
+
+
+
+/* title_sweet */
+
+.title_sweet {
+    background: #fff9ea;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title_sweet .sweets {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 1170px;
+    height: 611px;
+    margin: 150px 375px;
+}
+
+.title_sweet .sweets span {
+    color: #f37f34;
+}
+
+.title_sweet .sweets h3{
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 110%;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.title_sweet .sweets .candies {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    /* margin-bottom: 150px; */
+
+}
+
+.title_sweet .sweets .candies .candy {
+    background: #fff;
+    /* width: 30%; */
+    width: 370px;
+    height: 462px;
+}
+
+.title_sweet .sweets .candies .candy h4 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 130%;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #673b19;  
+    margin-top: 36px;
+    margin-bottom: 15px;
+}
+
+.title_sweet .sweets .candies .candy p {
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.01em;
+text-align: center;
+color: #774e2e;
+margin: 0 20px 36px 20px;
+}
+
+
+.title_sweet .sweets .candies .candy img {
+    width: 100%;
+}
+
+/* /* section advice_yummy / */
+
+.advice_yummy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.advice_yummy .advices {
+    width: 1170px;
+    height: 722px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+margin-top: 104px;
+margin-bottom: 196px;
+ 
+}
+
+.advice_yummy .advices .advice h3 {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 110%;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #f37f34;
+    margin-bottom: 30px;
+}
+
+.advice_yummy .advices .advice p {
+
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.01em;
+margin-bottom: 60px;
+}
+
+.advice_yummy .advices .advice h4 {
+
+font-weight: 600;
+font-size: 24px;
+line-height: 130%;
+letter-spacing: 0.01em;
+margin-bottom: 20px;
+}
+
+.advice_yummy .advices .advice ul li {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+}
+
+/* footer class="buy_yummy */
+
+.buy_yummy {
+    background: #774e2e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.buy_yummy img {
+    /* margin-left: 375px; */
+    margin-right: 188px;
+}
+
+.buy_yummy p {
+    font-weight: 500;
+font-size: 36px;
+line-height: 130%;
+letter-spacing: 0.01em;
+color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
